@@ -1,0 +1,404 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-image: url("https://theaveragescientist.co.uk/wp-content/uploads/2022/06/stars-2616537_1920-678x381-1.jpeg");
+  
+}
+
+nav {
+  height: 50px;
+  display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 45px;
+padding-left: 8%;
+padding-right: 8%;
+
+}
+
+.logo{
+color: white;
+  margin-top: 0px;
+font-size: 50px;
+letter-spacing: 1px;
+cursor: pointer;
+  margin-left: 5px;
+}
+span{
+color: #f9004d;
+}
+
+.content{
+position: absolute;
+top: 40%;
+left:8%;
+transform: translateY(-50%);
+
+}
+h1{
+color: white;
+margin: 20px 0px 20px;
+font-size: 75px;
+  text-align: left;
+}
+h3{
+color: white;
+font-size: 25px;
+margin-bottom: 50px;
+  text-align: left;
+}
+h4{
+color: #fcfc;
+letter-spacing: 2px;
+font-size: 20px;
+  text-align: left;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 1.5rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #00d1b2;
+}
+
+section {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+#home {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background.jpg') no-repeat center center/cover;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://images.unsplash.com/photo-1583364501903-49485df18877?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+}
+
+.hero {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 1rem 0 2rem;
+}
+
+.btn {
+  background-color: #00d1b2;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #00b29d;
+}
+
+#about{
+width: 100%;
+padding: 100px 0px;
+background-color: #191919;
+  margin-right: 20px;
+}
+
+.about-text{
+width: 550px;
+}
+.main{
+width: 1130px;
+max-width: 95%;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.about-text h2{
+color: white;
+font-size: 75px;
+text-transform: capitalize;
+margin-bottom: 20px;
+}
+.about-text h5{
+color: white;
+letter-spacing: 2px;
+font-size: 22px;
+margin-bottom: 25px;
+text-transform: capitalize;
+}
+.about-text p{
+color: #fcfc;
+letter-spacing: 1px;
+line-height: 28px;
+font-size: 18px;
+margin-bottom: 45px;
+}
+button{
+background-color:#f9004d;
+color: white;
+text-decoration: none;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 13px 30px;
+border-radius: 30px;
+transition: .4s; 
+}
+
+.button-two{
+background-color:#f9004d;
+color: white;
+text-decoration: none;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 13px 30px;
+border-radius: 30px;
+transition: .4s; 
+}
+
+
+button:hover{
+background-color: transparent;
+border: 2px solid #f9004d;
+cursor: pointer;
+}
+
+
+#education ,#service{
+background: #101010;
+width: 100%;
+padding: 100px 0px;
+}
+.title h2{
+color: rgb(19, 41, 246);
+font-size: 75px;
+width: 1130px;
+margin: 30px auto;
+text-align: center;
+}
+.box{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 400px;
+}
+.card{
+height: 365px;
+width: 335px;
+padding: 20px 35px;
+background: #2c2b2b;
+border-radius: 20px;
+margin: 15px;
+position: relative;
+overflow: hidden;
+text-align: center;
+}
+.card i{
+font-size: 50px;
+display: block;
+text-align: center;
+margin: 25px 0px;
+color: #bababa;
+
+}
+h5{
+color: white;
+font-size: 23px;
+margin-bottom: 15px;
+}
+.pra p{
+color: #fcfc;
+font-size: 16px;
+line-height: 27px;
+margin-bottom: 25px;
+}
+.card .button{
+background-color:#f9004d;
+color: white;
+text-decoration: none;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 9px 22px;
+border-radius: 30px;
+transition: .4s; 
+}
+.card .button:hover{
+background-color: transparent;
+border: 2px solid #f9004d;
+cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label {
+  margin-top: 1rem;
+}
+
+form input, form textarea {
+  width: 80%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  background-color: #00d1b2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #00b29d;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .socials a {
+  color: #fff;
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+footer .socials a:hover {
+  color: #00d1b2;
+}
+
+#contact-me{
+width: 100%;
+height: 290px;
+background: #191919;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+}
+.contact-me p{
+color: white;
+font-size: 30px;
+font-weight: bold;
+margin-bottom: 25px;
+}
+#contact-me .button-two{
+background-color:#f9004d;
+color: white;
+text-decoration: none;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 13px 30px;
+border-radius: 30px;
+transition: .4s; 
+}
+#contact-me {
+  height: 100px
+
+}
+
+.button-two:hover{
+background-color: transparent;
+border: 2px solid #f9004d;
+cursor: pointer;
+}
+footer{
+position: relative;
+width: 100%;
+height: 400px;
+background: #101010;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+footer p:nth-child(1){
+font-size: 30px;
+color: white;
+margin-bottom: 20px;
+font-weight: bold;
+}
+footer p:nth-child(2){
+color: white;
+font-size: 17px;
+width: 500px;
+text-align: center;
+line-height: 26px;
+}
+.social{
+display: flex;
+}
+.social a{
+width: 45px;
+height: 45px;
+display: flex;
+align-items: center;
+justify-content: center;
+background:  #f9004d;
+border-radius: 50%;
+margin: 22px 10px;
+color: white;
+text-decoration: none;
+font-size: 20px;
+}
+.social a:hover{
+transform: scale(1.3);
+transition: .3s;
+}
+.end{
+position: absolute;
+color:#f9004d;
+bottom: 35px;
+font-size: 14px; 
+}
